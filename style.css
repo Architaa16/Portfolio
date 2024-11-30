@@ -1,0 +1,72 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #00eeff;
+  color: #000000;
+}
+
+header {
+  background: #004aad;
+  color: #fff;
+  padding: 10px 0;
+}
+
+/* Style for passport-size image */
+.passport-photo {
+    width: 150px; /* Adjust the size as needed */
+    height: 150px;
+    border-radius: 50%; /* Circular image */
+    margin: 10px auto;
+    display: block;
+    border: 2px solid #004aad; /* Optional border for aesthetics */
+    object-fit: cover; /* Ensures the image is cropped properly */
+  }
+
+  .inline-projects {
+    list-style-type: none; /* Removes default bullets */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Makes the items inline */
+    flex-wrap: wrap; /* Allows items to wrap if they don't fit on one line */
+  }
+  
+  .inline-projects li {
+    margin-right: 10px; /* Adds space between items */
+  }
+
+.navbar {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero-image {
+    text-align: center;
+  }
+  
+  .hero-image img {
+    width: 100%; /* Increased the size to 80% of the container */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 1000px; /* Increased the maximum width to 500px */
+    border-radius: 8px; /* Optional: add rounded corners */
+  }
+  
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(to bottom, #ff0000, #00fbff);
+  color: #fff;
+}
+
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
